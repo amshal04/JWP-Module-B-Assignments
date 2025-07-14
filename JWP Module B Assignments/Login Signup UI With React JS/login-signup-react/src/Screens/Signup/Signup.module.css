@@ -1,0 +1,218 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to left, #fff 0%, #822b9a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Card box */
+.card {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+/* Left: Signup Form */
+.left {
+  flex: 1;
+  padding: 40px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h1 {
+  position: relative;
+  margin-bottom: 30px;
+  color: #822b9a;
+  text-align: center;
+  font-weight: bold;
+}
+
+.left h1::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -10px;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 5px;
+  background-color: #822b9a;
+  border-radius: 2px;
+}
+
+
+.right {
+  flex: 1;
+  padding: 40px;
+  background-color: #822b9a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* Input styles */
+input {
+  width: 90%;
+  padding: 12px 12px 12px 40px; 
+  margin: 12px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.signupBtn {
+  width: 100%;
+  padding: 12px;
+  font-size: 20px;
+  background-color: #822b9a;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.signupBtn:hover {
+  background-color: #6b2480;
+}
+
+.loginBtn {
+  background-color: white;
+  color: #822b9a;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px;
+}
+
+.loginBtn:hover {
+  background-color: #eee;
+}
+
+.inputWrapper {
+  position: relative;
+  margin: 12px 0;
+}
+
+.inputWrapper input {
+  padding-left: 40px; 
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 16px;
+}
+
+
+.eyeIcon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+  font-size: 16px;
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: column;
+    width: 95%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  .left, .right {
+    width: 100%;
+    padding: 20px;
+    border-radius: 0;
+  }
+
+  .right {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .left h1,
+  .right h1 {
+    font-size: 24px;
+  }
+  
+
+  input {
+    width: 85%;
+    font-size: 15px;
+    padding: 12px 12px 12px 40px;
+  }
+
+  
+  .loginBtn {
+    width: 40%;
+    font-size: 18px;
+    border-radius: 40px;
+    padding: 8px 3px;
+  }
+  .signupBtn{
+    width: 50%;
+    font-size: 18px;
+    padding: 18px;
+    border-radius: 30px;
+    display: block;
+    margin: 10px auto 0;
+  }
+
+  .icon{
+    font-size: 14px;
+  }
+  .eyeIcon{
+    font-size: 14px;
+    padding-right: 40px;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+
+  .left, .right {
+    padding: 10px;
+  }
+
+  .inputWrapper input {
+    width: 84%;
+  }
+
+    .eyeIcon{
+    padding-right: 20px;
+  }
+}

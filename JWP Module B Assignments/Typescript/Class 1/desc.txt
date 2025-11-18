@@ -1,0 +1,49 @@
+int a = 1
+float num = 2
+char name = "faraz"
+bool status = false
+
+typescript 
+
+static programming
+
+
+dynamic programming
+
+var let const
+
+var num = 10;
+
+num = "faraz"
+
+
+typescript
+
+string
+number
+boolean
+undefined
+null
+object
+array
+function
+
+never
+any
+unknown
+union
+
+transpiler
+
+
+
+javascript
+
+string
+number
+boolean
+undefined
+null
+object
+array
+function

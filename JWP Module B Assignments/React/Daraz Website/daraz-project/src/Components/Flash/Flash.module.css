@@ -1,0 +1,131 @@
+.contentWrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.flashWrapper {
+  background-color: #f5f5f5; 
+  padding: 1rem 0;
+}
+
+.flashMain {
+  background-color: white;
+  padding: 1rem 0; 
+  margin-top: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+/* Top Banner */
+.flashBanner {
+  width: 100%;
+  max-width: 1200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1rem auto;
+  border-radius: 12px;
+  border: 4px solid #0db4f5;
+}
+
+/* Heading and Button Row */
+.flashTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.flashHeading {
+  font-size: 26px;
+  color: #424242;
+  margin: 0;
+  direction: ltr;
+}
+
+.subText {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f85606;
+  margin: 0;
+  direction: ltr;
+}
+
+.viewAll {
+  background: none;
+  border: 1px solid #f85606;
+  color: #f85606;
+  padding: 0.3rem 0.6rem;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+  direction: ltr;
+}
+
+/* Horizontal Scrollable Row */
+.productRow {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+
+.productRow::-webkit-scrollbar {
+  display: none;
+}
+
+/* Product Cards */
+.saleCard {
+  display: inline-block;
+  width: 190px;
+  background: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.saleCard:hover {
+  transform: translateY(-4px);
+}
+
+.cardImage {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.cardBody {
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.cardBody h5 {
+  font-size: 14px;
+  margin: 0 0 0.4rem;
+  color: #333;
+}
+
+.price {
+  font-size: 16px;
+  color: #f85606;
+  margin: 0;
+}
+
+.oldPrice {
+  font-size: 12px;
+  text-decoration: line-through;
+  color: #888;
+  margin-left: 4px;
+}
+
+.discount {
+  font-size: 12px;
+  color: #f85606;
+  margin-left: 4px;
+}

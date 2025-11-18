@@ -1,0 +1,90 @@
+.navbarWrapper {
+  background-color: #f85606;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0; /* Add this if not present */
+
+}
+
+.topNav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 1.5rem;
+  font-size: 12px;
+  margin-right: 9rem;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navLinks a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.urduText {
+  font-family: 'Noto Nastaliq Urdu', serif;
+  font-size: 12px;
+}
+
+.cartIcon {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.bottomNav {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem 1rem;
+  gap: 1rem;
+  margin-left: 12rem;
+}
+
+.logoImage {
+  width: 150px;
+  object-fit: contain;
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
+
+}
+
+.searchBox {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 0.2rem;
+  margin-bottom: 2rem;
+
+  margin-left: 3rem;
+  max-width: 700px;
+}
+
+.searchBox input {
+  flex: 1;
+  border: none;
+  padding: 0.6rem;
+  font-size: 14px;
+  outline: none;
+  background-color: white;
+}
+
+.searchBtn {
+  background-color: #ffe1d2;
+  color: #f85606;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+}
+

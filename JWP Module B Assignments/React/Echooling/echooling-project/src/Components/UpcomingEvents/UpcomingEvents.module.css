@@ -1,0 +1,112 @@
+.section {
+  background-color: #f7f8fa;
+  padding: 60px 40px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #00306e;
+  margin-bottom: 10px;
+}
+
+.design {
+  display: block;
+  margin: 0 auto 40px;
+  height: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.eventCard {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease;
+}
+
+.eventCard:hover {
+  transform: translateY(-4px);
+}
+
+.dateBox {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.dateBox h3 {
+  font-size: 32px;
+  color: #d6245f;
+  margin: 0;
+}
+
+.dateBox p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+.eventDetails {
+  margin-top: 10px;
+}
+
+.time {
+  color: #d6245f;
+  font-size: 13px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #00306e;
+  margin-bottom: 8px;
+}
+
+
+
+.location {
+  font-size: 14px;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.locationIcon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+
+.cta {
+  background-color: white;
+  color: #00306e;
+  border: 1px solid #cfd8dc;
+  padding: 8px 66px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  background: #dc3545;
+  border: none;
+  color: white;
+}

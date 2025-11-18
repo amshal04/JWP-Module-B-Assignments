@@ -1,0 +1,126 @@
+.section {
+  padding: 60px 40px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #00306e;
+  font-weight: 700;
+}
+
+
+.design {
+  display: block;
+  margin: 10px auto 0;
+  height: 30px;
+}
+
+
+.grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  width: 260px; 
+  height: 350px; 
+  background-color: #fff;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.thumbnail {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+
+.details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px 18px;
+  text-align: left;
+}
+
+.topRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #b21b36;
+}
+
+.dot {
+  color: #002147;
+  font-weight: bold;
+}
+
+.courseTitle {
+  font-size: 1rem;
+  color: #00306e;
+  font-weight: 600;
+  margin: 10px 0 16px;
+  line-height: 1.4;
+}
+
+.bottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+}
+
+.students {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #333;
+}
+
+.students img {
+  width: 16px;
+  height: 16px;
+}
+
+.price {
+  font-weight: 700;
+  color: #b21b36;
+}
+
+.buttonWrapper {
+  margin-top: 40px;
+}
+
+.viewAll {
+  background: white;
+  color: #00306e;
+  padding: 10px 24px;
+  border: 4px solid hsla(0, 0%, 100%, .3);
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.viewAll:hover {
+  background: #b21b36;
+  color: #fff;
+  border: none;
+}
